@@ -90,6 +90,7 @@ export default async function InvoicesTable({
                         className="rounded-full"
                         width={28}
                         height={28}
+                        alt={invoice.image_url}
                       />
                       <p>{invoice.name}</p>
                     </div>
